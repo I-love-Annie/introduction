@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới Thiệu - Vương Quốc Tiền Bạc</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+            margin: 0;
+            padding: 0;
+        }
+
+        #container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fcd607;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, p {
+            text-align: center;
+            color: #333333;
+        }
+
+        #introduction {
+            margin-bottom: 20px;
+        }
+
+        #gameContent {
+            display: none; /* Hide the game content by default */
+        }
+
+        #startButton {
+            display: block;
+            margin: 0 auto;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        #startButton:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Vương Quốc Tiền Bạc</h1>
+        <div id="introduction">
+            <p>Xin chào và chào mừng đến với Vương Quốc Tiền Bạc!</p>
+            <p>Trong trò chơi này, bạn sẽ trở thành một nhà kinh doanh tài ba, kiếm tiền và thống trị thị trường.</p>
+            <p>Hãy sẵn sàng trải nghiệm cuộc hành trình của bạn và xây dựng một đế chế tiền bạc vĩ đại!</p>
+            <button id="startButton" onclick="startGame()">Bắt Đầu</button>
+        </div>
+
+        <!-- Game content -->
+        <div id="gameContent">
+            <!-- Include game content here -->
+            <h2>Chào mừng bạn đến với Vương Quốc Tiền Bạc!</h2>
+            <p>Trong trò chơi này, bạn sẽ được trải nghiệm cuộc sống của một doanh nhân thành đạt.</p>
+            <p>Hãy bắt đầu bằng cách quản lý cửa hàng của bạn, mua sắm hàng hóa và bán chúng với giá lợi nhuận cao!</p>
+        </div>
+    </div>
+    <script>
+        function startGame() {
+            // Open a new tab with a specific URL
+            window.open("https://i-love-annie.github.io/game-page/gamepage.html", "_blank");
+
+            // Close the current tab
+            window.close();
+        }
+    </script>
+</body>
+</html>
